@@ -178,59 +178,7 @@
   </style></head>
 
 
-<!--------POP UP BOX START---------->
-  
 
-  <!-- The popup container -->
-  <body><div id="popup-container" style="display: none;">
-    <div class="popup-box">
-      <button class="close-btn" onclick="closePopup()">X</button>
-      <!--------------Start Inetrstial-AD1 code---------------->
-&nbsp;&nbsp;&nbsp;&nbsp;
-<div id="hidden-section4" style="display: block;">
-    <center>
-        <a href="https://nitrosportaladstrack.blogspot.com/p/nsportal-intrstil-ad2.html?utm_source=Bio&amp;utm_medium=Intr2AD&amp;utm_campaign=Intr2Bio&amp;utm_id=Intr2Bio&amp;utm_term=Intr2Bio&amp;utm_content=Intr2Bio">
-            <img id="MyImageInterstial2" src="https://raw.githubusercontent.com/useroneman/adimag/refs/heads/main/intrstil-ad2.jpg?v=1740300938622" style="max-width: 100%; height: auto;">
-        </a>
-    </center>
-    <script>
-        const image = document.getElementById('MyImageInterstial2');
-        const timestamp = new Date().getTime();
-        const imageUrl = image.src + "?v=" + timestamp;
-        image.src = imageUrl;
-    </script>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-</div>
-<!--------------End Inetrstial-AD1 code---------------->
-      
-    </div>
-  </div>
-
-  <script>
-    // Function to open the popup
-    function openPopup() {
-      const popup = document.getElementById("popup-container");
-      popup.style.display = "flex";
-
-      // Cache busting by adding timestamp to image URL
-      const img = document.getElementById("popup-img");
-      const newSrc = "https://placehold.jp/3d4070/ffffff/600x450.png?" + new Date().getTime(); // Cache buster
-      img.src = newSrc;
-    }
-
-    // Function to close the popup
-    function closePopup() {
-      const popup = document.getElementById("popup-container");
-      popup.style.display = "none";
-    }
-
-    // Open the popup automatically when the page loads
-    window.onload = function() {
-      openPopup();
-    }
-  </script>
-
-<!--------POP UP BOX END---------->
 
 
     <div class="container">
